@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: #272725;
+}
+
+.list{
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+h3,img,a{
+    align-self:center
+}
+
+.letter{
+    background-color:#ffffd2;
+    color: #7c7575;
+}
+
+h3{
+    color:#52616b;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price{
+    color:#52616b;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    align-self: center;
+}
+
+del{
+    background-color:#dc3545;
+}
+
+ins{
+    text-decoration: none;
+    display: inline-block;
+    transform: rotate(-7deg);
+}
+
+.cta{
+    background-color: #3f3f3e;
+    color: #dc3545;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.cta{
+    cursor: pointer;
+}
+
+.cta:hover{
+    background-color: rgb(252, 246, 246);
+    letter-spacing: 0.15em;
+}
+
+.plantwo{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+@media all and (max-width: 800px) {
+    .family{
+        font-size: 15px;
+    }
+    .sweet{
+        font-size: 15px;
+        margin-left: 29px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .family{
+        font-size: 15px;
+        margin-left: 29px;
+    }
+    .sweet{
+        font-size: 15px;
+        margin-left: 29px;
+    }
+}
